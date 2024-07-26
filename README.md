@@ -36,6 +36,7 @@ Para acessar os endpoints da API, você precisa incluir um token de portador no 
 - Endpoint: /horarios
 - Autenticação: Token de portador do médico
 - Corpo da requisição:
+```
 {
   "data_hora": "20240724230300",
   "id_medico": "idmedico",
@@ -44,6 +45,7 @@ Para acessar os endpoints da API, você precisa incluir um token de portador no 
   "status_consulta": "confirmado",
   "id_paciente": "idpaciente123"
 }
+```
 
 #### Excluir um horário
 
