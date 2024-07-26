@@ -17,25 +17,25 @@ Para acessar os endpoints da API, você precisa incluir um token de portador no 
 
 ## Endpoints
 
-Horários
+### Horários
 #### Obter todos os horários
 
-Método: GET
-Endpoint: /horarios
-Autenticação: Token de portador do paciente ou médico
+- Método: GET
+- Endpoint: /horarios
+- Autenticação: Token de portador do paciente ou médico
 
 #### Obter um horário por ID
 
-Método: GET
-Endpoint: /horarios/{id}
-Autenticação: Token de portador do paciente ou médico
+- Método: GET
+- Endpoint: /horarios/{id}
+- Autenticação: Token de portador do paciente ou médico
 
 #### Atualizar um horário
 
-Método: PUT
-Endpoint: /horarios
-Autenticação: Token de portador do médico
-Corpo da requisição:
+- Método: PUT
+- Endpoint: /horarios
+- Autenticação: Token de portador do médico
+- Corpo da requisição:
 {
   "data_hora": "20240724230300",
   "id_medico": "idmedico",
@@ -47,11 +47,11 @@ Corpo da requisição:
 
 #### Excluir um horário
 
-Método: DELETE
-Endpoint: /horarios/{id}
-Autenticação: Token de portador do médico
+- Método: DELETE
+- Endpoint: /horarios/{id}
+- Autenticação: Token de portador do médico
 
-  ## Autenticação
+## Autenticação
 
 ### Autenticação do Médico
 
